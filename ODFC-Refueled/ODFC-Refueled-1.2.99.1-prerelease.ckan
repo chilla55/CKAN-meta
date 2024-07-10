@@ -1,0 +1,87 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ODFC-Refueled",
+    "name": "ODF Cr",
+    "abstract": "On Demand Fuel Cells (ODFC) is a plugin to support fuel cells that only generate power when it is needed, thereby saving precious fuel. Simulates fuel cells in Kerbal Space Program (KSP), and do a better job of it than stock's use of a resource converter.  The main difference is it only generates electricity when it's really needed (batteries almost empty), and otherwise lets electricity of a craft float up and down, as it might in a solar powered vehicle when the sun is eclipsed by another celestial body.  It also allows fuel cells to generate byproducts, aimed at supporting life support mods like TACLS. ",
+    "author": "zer0Kerbal",
+    "version": "1.2.99.1-prerelease",
+    "ksp_version_min": "1.8.1",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/187625-*/",
+        "repository": "https://github.com/zer0Kerbal/OnDemandFuelCells",
+        "bugtracker": "https://github.com/zer0Kerbal/OnDemandFuelCells/issues",
+        "discussions": "https://github.com/zer0Kerbal/OnDemandFuelCells/discussions",
+        "remote-avc": "https://github.com/zer0Kerbal/ODFCr/raw/master/OnDemandFuelCells.version"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "provides": [
+        "ODFC"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "BluedogDB"
+        },
+        {
+            "name": "StockalikeMiningExtension"
+        },
+        {
+            "name": "UniversalStorage"
+        },
+        {
+            "name": "UniversalStorage2"
+        },
+        {
+            "name": "RLAReborn"
+        }
+    ],
+    "supports": [
+        {
+            "name": "AllYAll"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "BackgroundProcessing"
+        },
+        {
+            "name": "BackgroundResources"
+        },
+        {
+            "name": "KerbalChangelog"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ODFC"
+        }
+    ],
+    "install": [
+        {
+            "find": "OnDemandFuelCells",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://api.github.com/repos/zer0Kerbal/OnDemandFuelCells/zipball/1.2.99.1-prerelease",
+    "download_size": 6905601,
+    "download_hash": {
+        "sha1": "E5959B04FF7D8FEF8B4705D163529CC7D33FC302",
+        "sha256": "DB6D794FE352D51BF513F44EAE98EBD99BFFEEF81DCC9B69C2C1672AFDEB4C9B"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 198887,
+    "release_date": "2022-12-28T07:38:39Z",
+    "x_generated_by": "netkan"
+}
